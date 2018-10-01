@@ -60,11 +60,11 @@ for i in a:
         elif (i%(b*f) ==0) :
             print("FizzBuzz")
         else: print(i)
-    if b>f and b%f ==0 :
-        if (i%f == 0 and i%(f*b) != 0 ) :
-            print("Fizz")
-        elif (i%b == 0):
+    elif b>f and b%f ==0: 
+        if (i%b == 0) :
             print("FizzBuzz")
+        elif (i%f == 0):
+            print("Buzz")
         elif (i%(b*f) ==0) :
             print("FizzBuzz")
         else: print(i)
