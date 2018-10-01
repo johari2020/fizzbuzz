@@ -52,7 +52,7 @@ b = int(input("For multiples of what number shall we print 'Buzz'? "))
 a = (list(range(1,n+1)))
 
 for i in a:
-    if f>=b and f%b ==0: 
+    if f>b and f%b ==0: 
         if (i%f == 0) :
             print("FizzBuzz")
         elif (i%b == 0):
@@ -60,7 +60,7 @@ for i in a:
         elif (i%(b*f) ==0) :
             print("FizzBuzz")
         else: print(i)
-    if b>=f and b%f ==0 :
+    if b>f and b%f ==0 :
         if (i%f == 0 and i%(f*b) != 0 ) :
             print("Fizz")
         elif (i%b == 0):
