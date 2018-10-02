@@ -57,7 +57,7 @@ for i in a:
             print("FizzBuzz")
         elif (i%b == 0):
             print("Buzz")
-        elif (i%(b) ==0 and i%(f) ==0)) :
+        elif (i%(b) ==0 and i%(f) ==0) :
             print("FizzBuzz")
         else: print(i)
     elif b>f and b%f ==0: 
@@ -65,7 +65,7 @@ for i in a:
             print("FizzBuzz")
         elif (i%f == 0):
             print("Buzz")
-        elif (i%(b) ==0 and i%(f) ==0)) :
+        elif (i%(b) ==0 and i%(f) ==0) :
             print("FizzBuzz")
         else: print(i)
     else: 
